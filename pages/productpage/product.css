@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    color: white;
+    padding: 50px 200px;
+    font-family: 'Inter', sans-serif;
+}
+
+button{
+    border: none;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding:10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    margin-bottom: 10px;
+}
+
+.short-details,.ratings-div, .genere, .star-div, .level{
+    display: flex;
+    align-items: center;
+}
+
+.short-details, .genere, .level{
+    column-gap: 20px;
+}
+
+.short-details{
+    margin-bottom: 50px;
+}
+
+.ratings-div .star-div .star{
+    display: block;
+    width: 15px;
+    height: 14px;
+}
+
+.ratings{
+    background-color: #959595;
+    padding: 3px;
+    width: fit-content;
+
+}
+
+#genere-image, #level-image{
+    width: 20px;
+    height: 20px;
+}
+
+
+.navigation-div{
+    display: flex;
+    column-gap: 50px;
+    margin-bottom: 20px;
+}
+
+.navigation-div span{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Hybrid/Content Div Styling */
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content , .purchase-div{
+    display: flex;
+    flex-direction: column;
+}
+
+/* -------------------------------------------------------- */
+.info{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(80, 79, 79);
+    align-self: center;
+    margin: 15px auto;
+    height: 30px;
+}
+
+.info span{
+    display: flex;
+    gap: 3px;
+    align-items: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    border: none;
+    height: 10px;
+    width: 41%;
+}
+.disc-btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    border: none;
+    height: 10px;
+    width: 38%;
+}
+.flag-btn{
+    display: flex;
+    justify-content: space-between;
+}
+
+#share, #report{
+    height: 32px;
+    width: 150px;
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.item-image{
+    width: 300px;
+    height: 150px;
+}
+.discount-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.buy-btn , .add-btn{
+    height: 50px;
+    width: 320px;
+}
+
+.buy-btn{
+    background-color: rgb(255, 51, 66);
+}
+.price-container{
+    display: flex;
+}
+#mrp{
+    text-decoration: line-through;
+}
+
+.css-uwwqxx {
+    display: block;
+    line-height: 0;
+    width: 20px;
+    height: 20px;
+    color: rgb(255, 51, 66);
+}
+
+.css-uwwqgdf{
+    width: 20px;
+    height: 20px;
+}
+
+.css-uwwqgmf{
+    width: 15px;
+    height: 15px;
+    transform: rotate(90deg);
+}
+
+.all-editions{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin-bottom: 10px;
+}
+
+.all-editions span{
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.css-uwwqev{
+    width: 15px;
+    height: 15px;
+}
